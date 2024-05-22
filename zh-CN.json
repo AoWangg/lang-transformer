@@ -1,0 +1,732 @@
+{
+  "title": "Bitlayer",
+  "meta": {
+    "description": "首个基于 BitVM 的比特币安全等效 Layer 2 方案"
+  },
+  "common": {
+    "readMore": "更多信息",
+    "learnMore": "了解更多",
+    "upload": "上传",
+    "submit": "提交",
+    "return": "返回",
+    "send": "发送",
+    "back": "后退",
+    "coming": "即将上线",
+    "connect": "连接钱包",
+    "disconnect": "断开连接",
+    "switchChain": "切换至 {{chainName}}",
+    "insufficientBalance": "余额不足",
+    "search": "搜索",
+    "toTop": "返回顶部",
+    "getGas": "获取Bitlayer Gas",
+    "bridge": "跨链 & 赚取收益",
+    "connectDesc": "连接您的钱包以转移代币",
+    "MesonDes": "安全、无成本 & 即时的稳定币跨链",
+    "OwltoDes": "Owlto Finance 是一个以意图为中心的互操作性协议",
+    "OrbiterDes": "Orbiter Finance 是一个去中心化的跨 Rollup 桥",
+    "login": "登录",
+    "noData": "无数据",
+    "confirm": "确认"
+  },
+  "resources": {
+    "github": "https://github.com/bitlayer-org",
+    "discord": "https://discord.gg/bitlayer",
+    "x": "https://twitter.com/BitlayerCN",
+    "linkedin": "https://bit.ly/42B6v15",
+    "telegram": "https://t.me/bitlayerCN",
+    "medium": "https://medium.com/@Bitlayer",
+    "rankRule": "https://medium.com/@Bitlayer/d157b77106c1"
+  },
+  "navigation": {
+    "links": {
+      "developers": "开发者",
+      "users": "用户",
+      "resources": "资源",
+      "contact": "联系我们",
+      "mainnet": "主网",
+      "bridge": "跨链桥",
+      "gas": "获取Gas",
+      "startBuilding": "开始构建",
+      "btrScan": "Bitlayer(BTR) 浏览器",
+      "addMainnet": "添加 Bitlayer 主网",
+      "testnet": "测试网",
+      "faucet": "水龙头",
+      "testnetBridge": "测试网跨链桥",
+      "testnetScan": "测试网浏览器",
+      "addTestnet": "添加 Bitlayer 测试网",
+      "language": "语言",
+      "getGas": "获取 Bitlayer Gas",
+      "readyPlayerOne": "头号玩家",
+      "luckyHelmet": "幸运头盔",
+      "dAppsLeaderboard": "Dapps 排行榜",
+      "hint1": "价值 5000 万美元的代币空投",
+      "hint2": "成为赛车手，在 Bitlayer 赚取收益",
+      "hint3": "为您喜爱的项目投票",
+      "brandKit": "品牌套件",
+      "whitepaper": "白皮书",
+      "leaderboard": "榜单竞赛"
+    },
+    "footer": {
+      "Participate": "参与",
+      "ReadyPlayerOne": "头号玩家",
+      "Build": "构建",
+      "BuildingBitlayer": "在 Bitlayer 上构建",
+      "Faucet": "水龙头",
+      "SupportedWallets": "支持的钱包",
+      "TheGraph": "The Graph",
+      "MainScan": "Bitlayer(BTR) 浏览器",
+      "TestScan": "测试网浏览器",
+      "About": "关于",
+      "Solutions": "解决方案",
+      "Roadmap": "路线图",
+      "EventNews": "活动与新闻",
+      "Jobs": "工作机会",
+      "Community": "社区"
+    },
+    "walletDrawer": {
+      "wrongNet": "请切换至{{chainName}}",
+      "noNFT": "暂无 NFT"
+    }
+  },
+  "pages": {
+    "home": {
+      "title": {
+        "notice": "头号玩家现已上线，立即投票，赢取积分&白名单！",
+        "slogon1": "拓展",
+        "slogon2": "比特币的可能性",
+        "slogon3": "",
+        "startBuilding": "开启构建",
+        "bridgeEarn": "跨链 & 赚取收益",
+        "competition": "Bitlayer Ready Player I Dapp榜单竞赛开赛",
+        "pre100": "探索",
+        "end100": "生态应用，赢取奖励！"
+      },
+      "solutions": {
+        "solutions": "解决方案",
+        "title": "比特币二层方案是怎样的",
+        "subtitle": "未来比特币生态系统的关键支柱性方案",
+        "items": [
+          {
+            "title": "比特币一层验证",
+            "text": "通过 BitVM 继承比特币安全性"
+          },
+          {
+            "title": "免信任双向锚定",
+            "text": "结合 DLC 和 BitVM，带来超越传统多重签名的创新模型"
+          },
+          {
+            "title": "图灵完备性",
+            "text": "支持多 VMs，实现 100% EVM 兼容环境"
+          }
+        ]
+      },
+      "roadmap": {
+        "roadmap": "路线图",
+        "title": "比特币的旅程",
+        "title2": "Bitlayer 的旅程",
+        "points": [
+          {
+            "title": "染色币",
+            "description": "染色币标记区块链代币以代表真实世界资产，确保安全和透明管理。",
+            "date": "2012年"
+          },
+          {
+            "title": "Counterparty",
+            "description": "Counterparty 为比特币添加自定义代币和智能合约，用于构建和交易数字资产。",
+            "date": "2014年"
+          },
+          {
+            "title": "Spells of Genesis",
+            "description": "基于区块链的移动游戏《Spells of Genesis》在奇幻背景中将交易卡与街机元素相结合。",
+            "date": "2015年"
+          },
+          {
+            "title": "Rare PEPE",
+            "description": "具有青蛙特征的 Rare Pepes 数字交易卡在比特币区块链上创建和交换，象征独特的可收藏加密艺术。",
+            "date": "2016年"
+          },
+          {
+            "title": "隔离见证升级",
+            "description": "隔离见证协议升级通过将签名数据与交易数据分离，增加了区块容量并改善了可扩展性。",
+            "date": "2017年"
+          },
+          {
+            "title": "Taproot 升级",
+            "description": "Taproot 比特币协议升级通过新的 Schnorr 签名方案，增强了隐私、效率和智能合约功能。",
+            "date": "2021年"
+          },
+          {
+            "title": "Ordinals",
+            "description": "Ordinals 协议在比特币区块链的每个聪上铭刻独特的数据，赋予 NFT 类似的功能。",
+            "date": "2023年"
+          }
+        ],
+        "journeys": [
+          {
+            "title": "主网 V1",
+            "texts": [
+              "最好的安全模型吸引开发者和用户：PoS 侧链 + MPC-TSS /原生多重签名"
+            ],
+            "subtitle": "2024年4月"
+          },
+          {
+            "title": "主网 V2",
+            "texts": [
+              "转为Rollup等效模型：突破性的资产桥接安全模型，无 BitVM 的 L1 验证挑战设计"
+            ],
+            "subtitle": "2024年9月"
+          },
+          {
+            "title": "主网 V3",
+            "texts": [
+              "完整图景：结合 BitVM 范式的 L1 验证挑战设计，实现比特币安全等效"
+            ],
+            "subtitle": "2025年6月"
+          }
+        ]
+      },
+      "events": {
+        "tag": "活动与新闻",
+        "title": "Bitlayer生态活动与新闻",
+        "subtitle": "关注我们最新进展",
+        "items": [
+          "Bitcoin Singapore",
+          "ETHDenver",
+          "比特币遇见去中心化金融",
+          "头号玩家"
+        ]
+      },
+      "jobs": {
+        "tag": "工作机会",
+        "title": "职位空缺",
+        "subtitle": "让我们一起创造比特币历史！",
+        "positions": [
+          {
+            "title": "开发者关系负责人",
+            "skills": [
+              "负责拓展和维护公链生态的开发者关系",
+              "处理与全球开发者技术社区、生态中的技术交流和开发者教育"
+            ]
+          },
+          {
+            "title": "协议研究员",
+            "skills": [
+              "基于行业痛点进行区块链前沿研究",
+              "撰写高质量的研究报告和论文"
+            ]
+          }
+        ],
+        "more": "探索职位空缺"
+      },
+      "community": {
+        "tag": "社区",
+        "title": "加入社区",
+        "subtitle": "与 Bitlayer 互动",
+        "items": [
+          {
+            "title": "加入 Bitlayer 开发者队伍",
+            "description": "与我们一同构建"
+          },
+          {
+            "title": "加入 Discord",
+            "description": "参与讨论与交流"
+          },
+          {
+            "title": "关注官方推特",
+            "description": "时刻获取最新进展"
+          },
+          {
+            "title": "在领英上联系我们",
+            "description": "与我们联系"
+          },
+          {
+            "title": "加入我们的电报群",
+            "description": "获取帮助和资讯"
+          },
+          {
+            "title": "关注Medium更新",
+            "description": "获取更多信息和指南"
+          }
+        ]
+      }
+    },
+    "developers": {
+      "title": {
+        "titleLine1": "欢迎来到",
+        "titleLine2": "Bitlayer 文档",
+        "subtitle": "由构建者为加入 Bitlayer 生态的构建者编写的手册",
+        "buildNow": "立即构建",
+        "blog": "博客"
+      },
+      "faq": {
+        "title": "常见问题",
+        "name1": "Bitlayer 是什么？",
+        "desc1": "Bitlayer 作为比特币的第二层解决方案，具有100%的 EVM 和以太坊工具链兼容性，BTC 作为原生代币（Gas 代币）。Bitlayer 允许应用和开发者以低成本从现有的以太坊生态系统迁移到 Bitlayer，无需进行大量修改或重写。",
+        "name2": "Bitlayer与现有的比特币钱包兼容吗？",
+        "desc2": "是的，Bitlayer与 MetaMask、Unisat Wallet 或其他比特币/以太坊兼容钱包兼容，允许用户在Bitlayer网络上无缝地与他们的资金和资产互动。",
+        "name3": "开发者可以将现有项目迁移到Bitlayer吗？",
+        "desc3": "是的，Bitlayer通过提供EVM兼容性，支持现有开发者以低成本无缝迁移和部署现有项目。开发者可以轻松迁移用 Solidity、Vyper 或其他直接编译到 Bitlayer 的EVM字节码的语言编写的智能合约，支持使用您熟悉的工具链：以太坊JSON-RPC、Hardhat等。",
+        "name4": "我如何支持 Bitlayer？",
+        "desc4": "`支持 Bitlayer 有几种方式。您可以积极参与社区讨论，提供反馈和建议，为平台上的应用程序或工具开发做出贡献，或向可能受益于其服务的他人推广 Bitlayer。此外，您可以探索 Bitlayer 可能设立的任何特定支持计划或项目。点击了解更多关于 <span data-link-index='0' class='bl-underline bl-cursor-pointer'>头号玩家</span> 的信息,这是一个为早期建设者和贡献者解锁5000万美元代币激励的计划。`"
+      },
+      "feature": {
+        "title": "我们的优势",
+        "title1": "图灵完备性",
+        "desc1": "支持多 VMs，实现100% EVM 兼容",
+        "title2": "免信任的双向锚定",
+        "desc2": "综合 DLC 和 BitVM，带来超越传统多重签名的创新模型",
+        "title3": "比特币一层验证",
+        "desc3": "通过BitVM继承比特币安全"
+      },
+      "quickstart": {
+        "title": "快速开始",
+        "subtitle": "由构建者为构建者量身打造的指南，解锁 Bitlayer 生态",
+        "title1": "将您的钱包连接到 Bitlayer 测试网",
+        "skill1": "将 Bitlayer 测试网配置添加到您的钱包，并与测试网上的 Dapps 互动",
+        "title2": "编译、运行和部署",
+        "skill2": "本指南将指导您完成 Bitlayer 的编译、运行和部署",
+        "title3": "新观点与新动态",
+        "skill3": "敬请关注我们博客中关于技术和市场洞察的更新",
+        "readMore": "了解更多"
+      },
+      "tools": {
+        "title": "开发者工具",
+        "subtitle": "利用 Bitlayer 的工具套件，最大程度发挥您的潜力",
+        "name1": "水龙头",
+        "desc1": "在此获取您的 Bitlayer 测试网代币进行开发，每 24 小时更新",
+        "name2": "主网浏览器",
+        "desc2": "一个探索和分析 Bitlayer 主网链上数据的重要工具，您可以深入研究测试网的交易、区块和地址",
+        "name3": "测试网浏览器",
+        "desc3": "一个探索和分析测试网链上数据的重要工具，您可以深入研究测试网的交易、区块和地址",
+        "website": "网站"
+      },
+      "connect": {
+        "title": "联系我们",
+        "subtitle": "了解 Bitlayer 社区的新闻和最新进展"
+      }
+    },
+    "bridge": {
+      "bridgeTitle": "跨链 & 赚取收益",
+      "gasTitle": "获取 Bitlayer Gas",
+      "gasPromotion": "Quick Start - Get Bitlayer Gas in 1 Minute!",
+      "newToBridge": "新用户？",
+      "from": "从",
+      "to": "到",
+      "amount": "数量",
+      "balance": "余额: {{balance}}",
+      "max": "最大",
+      "recipientAddress": "接收地址",
+      "recipientTip": "连接钱包接收代币",
+      "est": "预计: {{time}}",
+      "fee": "费用:",
+      "total": "总计:",
+      "receivepPlaceholder": "请输入 {{chainName}} 地址",
+      "transfer": "转账",
+      "transferProgress": "转账正在进行中",
+      "approve": "授权",
+      "approveInProgress": "等待您的确认",
+      "checkingAllowance": "正在查询授权额度",
+      "minLimit": "每笔交易最低 {{amount}} {{symbol}}",
+      "maxLimit": "每笔交易最高 {{amount}} {{symbol}}",
+      "invalidAmount": "金额无效",
+      "invalidAddress": "无效地址",
+      "switchChainDesc": "切换到{{chainName}}网络需要使用{{networkType}}钱包",
+      "transferFailed": "转账失败",
+      "connectDesc": "连接您的钱包以转移代币",
+      "bridgeTip": "桥接到Bitlayer，持有Bitlayer幸运头盔，共享400K BWB积分",
+      "historyTab": "历史记录",
+      "getGas": "快速获取Gas",
+      "swap": "兑换",
+      "gasLimit": "`余额≥{{maxBalance}}无法兑换`",
+      "dayLimit": "`今日剩余的BTC为{{remainSwapAmount}}`",
+      "loadingData": "加载数据中",
+      "noData": "无数据",
+      "sender": "发送者",
+      "receiver": "接收者",
+      "transactionHash": "交易哈希",
+      "Pay": "您支付",
+      "gasPay": "付款地址",
+      "gasGet": "收款地址",
+      "Balance": "余额:",
+      "Max": "最大",
+      "SwitchToBitlayer": "切换 Bitlayer",
+      "Maximum": "每笔交易最多 {{maxSwapAmount}} BTC",
+      "History": "历史记录",
+      "Receive": "您收到",
+      "Fee": "费用:",
+      "Total": "总计:",
+      "Slippage": "滑点:",
+      "ThirdPartyBridge": "第三方跨链桥",
+      "ConfirmSwap": "确认兑换",
+      "ApproveToken": "批准代币",
+      "ApproveGas": "批准签名，无需支付 Gas",
+      "ConfirmSwapRadio": "确认兑换比例",
+      "ConfirmGas": "确认兑换比例，无需支付 Gas",
+      "Processing": "处理中...",
+      "Completed": "已完成",
+      "From": "从",
+      "To": "到",
+      "Return": "返回",
+      "thirdParty": {
+        "tipTitle": "温馨提示",
+        "tipContent": "目前官方EVM桥是Beta版本，小额跨链请先使用三方桥"
+      },
+      "btcHint": "仅支持 BTC 和 Ordinal 协议资产"
+    },
+    "faucet": {
+      "title": "测试网水龙头",
+      "description": "获取 Bitlayer 测试网代币进行开发，每24小时更新。测试网代币没有价值，无法以实际价格交易",
+      "selectField": {
+        "label": "选择 token",
+        "placeholder": "选择一个 token"
+      },
+      "textFiled": {
+        "label": "钱包地址",
+        "placeholder": "请输入您的 Bitlayer 测试网地址"
+      },
+      "result": {
+        "gotTip": "你得到了 {{tokens}}!",
+        "gotAnother": "您可以在24小时后再次请求 {{token}} 。",
+        "sending": "发送中..."
+      },
+      "error": {
+        "testAddress": "请输入一个有效的 Bitlayer 测试网地址",
+        "verifyCaptcha": "请完成验证码验证",
+        "verifyFailed": "验证码验证失败",
+        "exceededLimit": "您已在最近24小时内请求过代币，请等待 {{h}}{{m}}{{s}} 后再试。",
+        "invalidAddress": "请输入有效的 Bitlayer 测试网地址",
+        "unexpectedError": "发生了意外的服务器错误，请稍后再试。"
+      }
+    },
+    "readyplayone": {
+      "title": "头号玩家",
+      "description": "为早期构建者和贡献者解锁5000万美元代币激励。",
+      "register": "注册",
+      "time": "2024年3月29日 - 2024年5月10日",
+      "airdrop": "价值5000万美元的代币空投",
+      "Volume": "体积:",
+      "rules": {
+        "title": "规则",
+        "ruleContents": [
+          {
+            "title": "注册",
+            "texts": ["确保在5月10日之前完成注册。"],
+            "date": "3月-5月"
+          },
+          {
+            "title": "上线",
+            "texts": ["在主网部署并为即将到来的竞赛做好准备。"],
+            "date": "4月-5月"
+          },
+          {
+            "title": "空投",
+            "texts": ["加入排行榜竞赛，赢取价值超过5000万美元的代币空投。"],
+            "date": "6月-7月"
+          }
+        ]
+      },
+      "colead": "联合领投",
+      "investors": "投资者",
+      "partners": "合作伙伴",
+      "setp": {
+        "register": {
+          "schemaName": "请输入项目名称",
+          "schemaWebsite": "请输入项目网站",
+          "schemaContact": "请输入联系人姓名",
+          "schemaTelegram": "请输入项目电报",
+          "schemaEmail": "请输入电子邮件",
+          "schemaAgree": "请同意条款和条件",
+          "formValidError": "我们在您的表单中发现了一些问题，请在重新提交前查看突出显示的字段并进行更正。",
+          "apiClientError": "我们在您的表单中发现了一些问题，请查看字段并尝试再次提交。({{code}})",
+          "apiServerError": "我们这边似乎暂时出现了故障，请刷新页面或几分钟后再试。({{code}})",
+          "formOne": {
+            "title": "项目信息",
+            "name": {
+              "label": "项目名称",
+              "placeholder": "请输入名称"
+            },
+            "twitter": {
+              "label": "项目X账号",
+              "placeholder": "请输入 ID"
+            },
+            "website": {
+              "label": "项目网站",
+              "placeholder": "请输入 URL"
+            },
+            "logo": {
+              "label": "项目 Logo <span>(建议使用1:1比例)</span>",
+              "placeholder": "选择文件上传"
+            },
+            "description": {
+              "label": "项目描述/Deck：在500个字符内概述您的项目（目的、解决的问题、工作原理）或提供 Deck 链接。",
+              "placeholder": "请输入描述"
+            },
+            "category": {
+              "label": "您的项目属于哪个类别？",
+              "placeholder": "请选择",
+              "selects": [
+                "Infra",
+                "Defi",
+                "Social",
+                "Inscriptions",
+                "NFT",
+                "MeMe Token",
+                "DAO",
+                "Tooling",
+                "Wallet",
+                "Cross-chain",
+                "Privacy computering",
+                "Privacy Token",
+                "Prediction makert",
+                "Storage",
+                "Gamefi",
+                "Entertainment",
+                "Metaverse",
+                "Others"
+              ]
+            },
+            "stage": {
+              "label": "项目阶段",
+              "placeholder": "请选择",
+              "selects": [
+                "Idea phase",
+                "In development",
+                "Prototype available",
+                "Live/Beta"
+              ]
+            },
+            "coin": {
+              "label": "项目在Bitlayer部署的代币合约地址 <span>（如无请填N/A）</span>",
+              "placeholder": "请输入代币合约地址"
+            },
+            "lockUp": {
+              "label": "项目在Bitlayer上的锁仓地址 <span>（如无请填N/A）</span>",
+              "placeholder": "请输入锁仓地址"
+            },
+            "contract": {
+              "label": "项目在Bitlayer部署的交互合约地址 <span>（如无请填N/A）</span>",
+              "placeholder": "请输入交互合约地址"
+            },
+            "defilama": {
+              "label": "项目Defillama链接 <span>（如无请填N/A）</span>",
+              "placeholder": "请输入Defillama链接"
+            }
+          },
+          "formTwo": {
+            "title": "团队信息",
+            "team": {
+              "label": "团队人数有多少？请列出主要团队成员的姓名、角色和背景。",
+              "placeholder": "请输入描述"
+            }
+          },
+          "formThree": {
+            "title": "联系人",
+            "name": {
+              "label": "名称",
+              "placeholder": "请输入名称"
+            },
+            "email": {
+              "label": "电子邮件地址",
+              "placeholder": "请输入电子邮件地址"
+            },
+            "telegram": {
+              "label": "电报",
+              "placeholder": "请输入 URL"
+            },
+            "twitter": {
+              "label": "X 个人资料",
+              "placeholder": "请输入 URL"
+            }
+          },
+          "consent": {
+            "title": "同意",
+            "label": "我同意本次黑客松的条款和条件、隐私政策和行为准则。"
+          }
+        },
+        "launch": {
+          "title": "恭喜您注册成功",
+          "documents": "开发者文档",
+          "deploy": "现在，您可以在Bitlayer上部署项目了",
+          "scanCode": "扫码加入社区",
+          "next": "下一步"
+        },
+        "airdrop": {
+          "deploymentTip": "如果您的项目已经完成部署，恭喜",
+          "description": "关于活动规则和奖励分配的详细信息将稍后公布。通过积极参与，您有机会分享价值高达5000万美元的代币奖励。"
+        }
+      }
+    },
+    "luckyhelmet": {
+      "title": "幸运头盔",
+      "description": "成为赛车手，在 Bitlayer 赚取收益。",
+      "toGet": "如何获取？",
+      "miningBtn": "铸造开放日期：2024年5月8日",
+      "assetTitle": "比特币一层的资产",
+      "assetDesc": "比特币一层上的原生 Ordinals 资产",
+      "mintTitle": "在比特币 L2 铸造",
+      "mintDesc": "与 L1 相比，更低的Gas费用和更好的流通性",
+      "desc1": "无缝的 L1/L2 体验",
+      "desc2": "Bitlayer 的金铲子特权",
+      "minting": "铸造中",
+      "mint": "铸造",
+      "checkWhitelist": "查看白名单",
+      "minted": "已铸造",
+      "mintingSuccess": "铸造成功",
+      "congratulations": "祝贺你!",
+      "success": "您在白名单中",
+      "sorry": "很抱歉",
+      "failure": "您不在白名单中",
+      "finished": "已完成",
+      "whitelistOnly": "仅限白名单用户",
+      "trade": "Trade Lucky Helmet"
+    },
+    "rank": {
+      "head": {
+        "head1": "奖励池",
+        "head2": "Dapps",
+        "head3": "总投票数",
+        "head4": "每日投票"
+      },
+      "banner": {
+        "tag": "筹备阶段",
+        "title": "头号玩家",
+        "subtitle": "给构建者的代币空投",
+        "link": "了解规则？",
+        "all": "所有类别",
+        "switch": "切换至",
+        "register": "注册 Dapp"
+      },
+      "list": {
+        "votes": "投票数",
+        "vote": "投票",
+        "out": "票数用尽",
+        "invite": "邀请获取分数"
+      },
+      "carouse": {
+        "title": "我的 Ready Player One 积分",
+        "note": "请注意：头号玩家积分不等同于 Bitlayer 积分，它们未来会按照一定比例进行兑换。请关注我们获取最新信息",
+        "accepted": "邀请被接受",
+        "taskCenter": "任务中心",
+        "now": "立即关注",
+        "vote": "每次投票",
+        "invite": "每次邀请",
+        "follow": "在 X 上关注",
+        "hint1": "每天最多3次",
+        "hint2": "一次性任务"
+      },
+      "dialog": {
+        "band": {
+          "title": "邀请朋友助力",
+          "sorry": "抱歉！您的X账户已与不同地址绑定，请使用另一个 X 账户"
+        },
+        "invite": {
+          "need": "您需要先绑定一个 X 账户。成功邀请一个用户可获得500积分",
+          "auth": "在X上授权",
+          "attention": "注意：一个 X 账户只能绑定一个地址，以避免错误"
+        },
+        "note": {
+          "please": "请注意：",
+          "note": "头号玩家积分不等同于 Bitlayer 积分，它们未来会按照一定比例进行兑换。请关注我们获取最新信息"
+        },
+
+        "rules": {
+          "rules1": "每天完成3次投票可获取300积分",
+          "rules2": "关注官方 X 可获取500积分",
+          "rules3": "每成功邀请一个新用户可额外获取500积分",
+          "rules4": "随机抽取100个用户分发 Bitlayer 幸运头盔，积分排名越高，中奖机会越大",
+          "vote": "为您喜爱的项目投票",
+          "note": "参与 Bitlayer 人气榜投票，支持您喜爱的项目！活动时间为2024年4月23日至2024年5月10日。登录排行榜页面，每人每天有3次投票机会；通过关注官方X账户和邀请新用户可获取额外积分。积极参与者可累积头号玩家活动积分，并有机会获得Bitlayer幸运头盔白名单。",
+          "rewards": "奖励：",
+          "boost": "`提升项目人气，影响榜单排名，积极参与有机会获得官方NFT奖励`",
+          "gotIt": "已了解"
+        },
+        "share": {
+          "copy": "复制链接",
+          "share": "分享到",
+          "invite": "邀请投票",
+          "more": "分享好友获取更多投票",
+          "connect": "链接 X（推特）"
+        },
+        "vote": {
+          "vote": "投票",
+          "voteFor": "投票给",
+          "daily": "每天可投3次",
+          "votes": "票数"
+        },
+        "expire": {
+          "late": "抱歉，您来晚了!",
+          "expired": "投票活动现已结束",
+          "tuned": "未来我们将在官方推特上分享更多活动，敬请期待！",
+          "thx": "非常感谢！",
+          "follow": "一键关注"
+        }
+      }
+    },
+    "getGas": {
+      "recipient": "接收地址",
+      "placeholder": "请输入一个 Bitlayer 地址",
+      "invalid": "无效地址",
+      "purchase": "支付",
+      "time": "预计时间：支付完成后约 1 分钟",
+      "getGas": "获取 Gas 极速版",
+      "getRegular": "获取 Gas 常规版",
+      "after": "完成转账后，你将可以查看订单",
+      "history": "历史记录",
+      "payment": "支付地址",
+      "timeout": "二维码超时",
+      "warning": "请不要给过期的地址转账，否则您有丢失代币的风险",
+      "amount": "支付数量:",
+      "cancelWarning": "如果取消订单，请不要将任何代币发送到支付地址，因为这可能会导致您的资金损失",
+      "ok": "好的",
+      "cancel": "取消订单",
+      "Complete": "完成",
+      "getBitlayerGas": "您可以通过从支持 Bitlayer 的钱包/交易所向支付地址发送代币的方式获取 Gas",
+      "promotionNote1": "Promotion: only",
+      "fee": " $1 ",
+      "promotionNote2": "for the Get Gas Express fee, right now!",
+      "addressNotion": "The payment address for each order an only be used once, do not transfer funds more than one time."
+    },
+    "leaderBoard": {
+      "title": "Bitlayer 榜单竞赛 第一期",
+      "support": "上所支持",
+      "incentives": "空投激励",
+      "liquidity": "为生态伙伴",
+      "forPartners": "提供流动性支持",
+      "rules": "了解活动规则？",
+      "topTvl": "TVL巅峰榜",
+      "topTransation24": "24h内交易数巅峰榜",
+      "topTransaction": "交易数排行榜",
+      "topPopularity": "人气巅峰榜",
+      "viewAll": "查看全部",
+      "tryNow": "立即体验",
+      "countdown": "本阶段倒计时",
+      "stage3": "阶段3：竞赛期",
+      "stage2": "阶段2：准备期",
+      "gemsMinted": "已发放宝石总数",
+      "locked": "总锁定价值",
+      "transactionCount": "交易数",
+      "totalLikes": "总赞数",
+      "tvlRanking": "Bitlayer生态TVL 排行榜",
+      "discoverTvl": "探索更多高TVL的 Bitlayer 生态应用",
+      "txnRanking": "Bitlayer 生态交易数排行榜",
+      "discoverTransactions": "探索更多交易活跃的 Bitlayer 生态应用",
+      "rankingList": "Bitlayer 生态人气排行榜",
+      "discoverPopular": "探索 Bitlayer 生态最受欢迎的应用产品",
+      "top10": "Top10巅峰榜",
+      "tvl": "TVL",
+      "transactions": "交易数",
+      "likes": "赞",
+      "valueUpdate": "Bitlayer 主网上 DApp 协议中锁定的有效资产总价值，每日更新。",
+      "numberUpdate": "用户调用Dapp合约的有效交易数，每日更新。",
+      "likesUpdate": "比赛期间项目累计点赞数，实时更新。",
+      "name": "名称",
+      "category": "类别",
+      "gemMinted": "已收集宝石量",
+      "gemsPoints": "宝石数量根据项目TVL、有效交易笔数、有效用户数、项目人气值、项目产品力综合计算。数据每天00:00（UTC）更新",
+      "boost": "为我助力",
+      "bindX": "绑定推特",
+      "bindNeed": "您需要先绑定一個 X 账户。",
+      "start": "5月23日开始"
+    }
+  }
+}
